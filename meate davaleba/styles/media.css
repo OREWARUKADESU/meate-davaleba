@@ -1,0 +1,21 @@
+@media (max-width: 1230px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 800px) {
+    .hamburger {
+        display: none;
+    }
+}
